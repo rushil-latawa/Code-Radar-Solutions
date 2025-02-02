@@ -2,8 +2,8 @@
 int main(){
     float a,area,pie;
     scanf("%f",&a);
-    pie==3.14;
+    pie=3.14;
     area=pie*a*a;
-    printf("Area: %f",area);
+    printf("Area: %.2f",area);
     return 0 ;
 }
