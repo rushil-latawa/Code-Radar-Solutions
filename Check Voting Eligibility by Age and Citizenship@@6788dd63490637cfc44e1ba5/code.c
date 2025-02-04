@@ -8,7 +8,10 @@ int main(){
     else if (age<18 && status==1 ){
         printf("Not Eligible");
     }
-    else if (age>=18 &&  age<18 && status==0){
+    else if (age>=18 && status==0){
+        printf("Not Eligible");
+    }
+    else if (age<18 && status==1){
         printf("Not Eligible");
     }
     else {
