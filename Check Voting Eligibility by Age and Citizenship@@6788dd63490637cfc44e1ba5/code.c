@@ -2,8 +2,11 @@
 int main(){
     int age, status;
     scanf("%d %d",&age,&status);
-    if (age>=18 && staus==1){
+    if (age>=18 && staus==1 ){
         printf("Eligible");
+    }
+    else if (age<18 && status==1 ){
+        printf("Not Eligible");
     }
     else if (age>=18 &&  age<18 && status==0){
         printf("Not Eligible");
