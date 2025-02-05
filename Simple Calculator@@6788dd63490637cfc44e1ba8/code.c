@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 int main(){
     int a , b,sum,d,e,f;
     char c;
@@ -13,10 +13,10 @@ int main(){
     else if (c=='-'){
         printf("%d",d);
     }
-    else if (c=='*'){
-        printf("%d",e);
-    }
-    else if (c=='/'){
-        printf("%d",f);
-    }
+    // else if (c=='*'){
+    //     printf("%d",e);
+    // }
+    // else if (c=='/'){
+    //     printf("%d",f);
+    // }
 }    
