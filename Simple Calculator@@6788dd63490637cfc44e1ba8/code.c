@@ -15,7 +15,7 @@ int main(){
         printf("%.0f",d);
     }
     else if (c=='*'){
-        printf("%d",e);
+        printf("%.0f",e);
     }
     else if (c=='/'){
         if(b==0){
