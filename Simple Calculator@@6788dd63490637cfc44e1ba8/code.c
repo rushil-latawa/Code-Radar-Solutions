@@ -18,6 +18,11 @@ int main(){
         printf("%d",e);
     }
     else if (c=='/'){
+        if(y==0){
+            printf("error");
+        }
+        else{
         printf("%.0f",f);
+        }
     }
 }    
