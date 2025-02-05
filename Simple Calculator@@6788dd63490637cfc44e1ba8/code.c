@@ -18,6 +18,6 @@ int main(){
         printf("%d",e);
     }
     else if (c=='/'){
-        printf("%f",f);
+        printf("%.0f",f);
     }
 }    
