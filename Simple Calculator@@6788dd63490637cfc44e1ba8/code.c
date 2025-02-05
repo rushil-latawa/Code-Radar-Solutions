@@ -8,3 +8,4 @@ int main(){
     if (c=='+'){
         printf("%d",sum);
     }
+}    
