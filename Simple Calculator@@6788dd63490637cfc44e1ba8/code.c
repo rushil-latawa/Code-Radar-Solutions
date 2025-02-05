@@ -18,7 +18,7 @@ int main(){
         printf("%d",e);
     }
     else if (c=='/'){
-        if(y==0){
+        if(b==0){
             printf("error");
         }
         else{
