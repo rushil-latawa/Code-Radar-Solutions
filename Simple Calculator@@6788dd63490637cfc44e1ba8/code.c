@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a , b,sum,d,e,f;
+    int a , b,sum,d,e;
     char c;
+    float f;
     scanf("%d %d %c",&a,&b,&c);
     sum= a+b;
     d= a-b;
@@ -13,10 +14,10 @@ int main(){
     else if (c=='-'){
         printf("%d",d);
     }
-    // else if (c=='*'){
-    //     printf("%d",e);
-    // }
-    // else if (c=='/'){
-    //     printf("%d",f);
-    // }
+    else if (c=='*'){
+        printf("%d",e);
+    }
+    else if (c=='/'){
+        printf("%f",f);
+    }
 }    
