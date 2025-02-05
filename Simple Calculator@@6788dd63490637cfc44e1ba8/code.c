@@ -9,10 +9,10 @@ int main(){
     e=a*b;
     f=a/b;
     if (c=='+'){
-        printf("%d",sum);
+        printf("%f",sum);
     }
     else if (c=='-'){
-        printf("%d",d);
+        printf("%f",d);
     }
     else if (c=='*'){
         printf("%d",e);
