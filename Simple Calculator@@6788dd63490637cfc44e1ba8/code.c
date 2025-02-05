@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    float a , b,sum,d,e;
+    float a , b,sum=0,d,e;
     char c;
     float f;
     scanf("%f %f %c",&a,&b,&c);
