@@ -10,7 +10,6 @@ int main(){
             else{
                 printf(0);
             }
-            printf("%d",a);
         }
         printf("\n");
     }
