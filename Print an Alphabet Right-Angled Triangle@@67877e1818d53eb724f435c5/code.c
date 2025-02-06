@@ -8,5 +8,5 @@ int main(){
             printf("%c ",e);
             e++;
         }printf("\n");
-    }
+    } char e='A';
 }
