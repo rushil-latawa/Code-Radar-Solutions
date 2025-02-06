@@ -7,6 +7,6 @@ int main(){
         for(int j=1;j<=i;j++){
             b++;
         }printf("%d",b);
-    }
+    }printf("\n");
 
 }
