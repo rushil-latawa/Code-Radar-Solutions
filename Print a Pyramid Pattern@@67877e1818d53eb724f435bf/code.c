@@ -5,7 +5,7 @@ int main(){
     int star = 1;
     for (int i=0;i<a;i++){
         for (int j=0;j<n-i-1;j++){
-            printf(' ');
+            printf(" ");
         }
         for (int j = 0 ; j<star;j++){
             printf("*");
