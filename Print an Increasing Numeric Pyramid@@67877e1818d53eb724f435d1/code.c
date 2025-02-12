@@ -11,7 +11,6 @@ int main(){
         }
         for (int j = 0 ; j<star;j++){
             printf("%d",c);
-            c++;
         }printf("\n");
         star+=2;
     }
