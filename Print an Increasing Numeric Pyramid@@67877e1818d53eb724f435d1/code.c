@@ -13,7 +13,7 @@ int main(){
             printf("%d ",c);
             c++;
         }printf("\n");
-        star+=;
+        star+=1;
     }
     return 0;
 }
