@@ -10,7 +10,8 @@ int main(){
             printf(" ");
         }
         for (int j = 0 ; j<star;j++){
-            printf("%d",c);
+            printf("%d ",c);
+            c++;
         }printf("\n");
         star+=2;
     }
