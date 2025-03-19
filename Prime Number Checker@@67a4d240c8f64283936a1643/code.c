@@ -3,8 +3,8 @@ int isPrime(){
     int a;
     scanf("%d",&a);
     int f;
-    for(int i =2;i<a;i++){
-        if(i%a==0){
+    for(int i=2;i<a;i++){
+        if(a%i==0){
             f=1;
             break;
         }
