@@ -13,7 +13,7 @@ int isPrime(){
         }
     }
     if(f=1){
-        printf("0");
+        printf("0\n");
     }
     else{
         printf("1");
