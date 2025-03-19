@@ -12,10 +12,10 @@ int isPrime(){
             f=0;
         }
     }
-    if(f==1){
-        printf("0");
+    if(f=1){
+        printf(0);
     }
     else{
-        printf("1");
+        printf(1);
     }
 }
