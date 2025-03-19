@@ -2,7 +2,7 @@
 int isPrime(){
     int a;
     scanf("%d",&a);
-    int f;
+    int f=0;
     for(int i=2;i<a;i++){
         if(a%i==0){
             f=1;
