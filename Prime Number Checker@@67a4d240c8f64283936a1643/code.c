@@ -1,5 +1,5 @@
 // Your code here...
-int prime(){
+int isPrime(){
     int a;
     scanf("%d",&a);
     int f;
