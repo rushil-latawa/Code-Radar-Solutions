@@ -13,9 +13,9 @@ int isPrime(){
         }
     }
     if(f=1){
-        printf(0);
+        printf("0");
     }
     else{
-        printf(1);
+        printf("1");
     }
 }
