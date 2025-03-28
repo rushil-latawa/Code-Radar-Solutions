@@ -14,7 +14,7 @@ int main() {
                 a[i]=a[j];
                 a[j]=c;
             }
-            if(a[i]>=a[j]){
+            if(a[i]<=a[j]){
         printf("Sorted");
     }
     else{
