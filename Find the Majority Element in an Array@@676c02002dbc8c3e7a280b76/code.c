@@ -1,4 +1,5 @@
 #include <stdio.h>
+int main(){
 int b;
 scanf("%d",&b);
 int c=0;
@@ -18,4 +19,5 @@ for(int i=0;i<b;i++){
     else{
         printf("-1");
     }
+}
 }
