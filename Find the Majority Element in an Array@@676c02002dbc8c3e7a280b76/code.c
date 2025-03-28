@@ -13,7 +13,7 @@ for(int i=0;i<b;i++){
             c++;
         }
     }
-    if(c>/2){
+    if(c>b/2){
         printf("%d",c);
     }
     else{
