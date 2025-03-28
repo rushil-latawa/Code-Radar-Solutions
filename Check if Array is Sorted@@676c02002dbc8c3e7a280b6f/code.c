@@ -17,10 +17,10 @@ int main() {
         }
     }
     if(a[0]<a[n-1]){
-        printf("Sorted");
+        printf("Not Sorted");
     }
     else if(a[0]>a[n-1]){
-        printf("Not Sorted");
+        printf("Sorted");
     }
 
 }    
