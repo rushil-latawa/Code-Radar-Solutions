@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n,c;
+    int n,c=-1;
     scanf("%d",&n);
     int a[n];
     for(int i =0;i<n;i++){
@@ -12,6 +12,9 @@ int main(){
                 c=a[i];
                 a[i]=a[j];
                 a[j]=c;
+            }
+            if(a[i]=a[j]){
+                printf("%d",c);
             }
         }
     }
