@@ -14,8 +14,7 @@ int main(){
                 a[j]=c;
             }
         }
-    }if(a[n-1]==a[n-2])(
-        printf("%d",c);
-    )
+    }if(a[n-1]==a[n-2]){
+        printf("%d",c);}
     printf("%d",a[n-2]);
 }
