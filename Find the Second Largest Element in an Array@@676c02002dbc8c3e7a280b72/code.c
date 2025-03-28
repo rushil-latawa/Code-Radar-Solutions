@@ -16,7 +16,7 @@ int main(){
                 a[j]=c;
             }
             else if(a[i]==a[j]){
-                printf("0")
+                printf("0");
             }
         }
     }
