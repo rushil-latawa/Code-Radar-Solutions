@@ -15,5 +15,5 @@ int main(){
                 a[j]=c;
             }
         }
-    }printf("%d",a[n-1] *a[n-2]);
+    }printf("%d",a[n-1]*a[n-2]);
 }
