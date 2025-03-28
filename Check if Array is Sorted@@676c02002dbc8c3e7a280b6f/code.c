@@ -14,12 +14,12 @@ int main() {
                 a[i]=a[j];
                 a[j]=c;
             }
-            if(a[i]<=a[j]){
-        printf("Sorted");
+        }
+        if(a[i]<=a[i+1]){
+            printf("Sorted");
+        }
+        else{
+            printf("Not Sorted");
+        }
     }
-    else{
-        printf("Not Sorted");
-    }
-    }  
-    }
-}
+}    
