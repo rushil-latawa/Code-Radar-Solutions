@@ -13,5 +13,6 @@ int main() {
                     return 0;
             }
         }
-    }printf("Sorted");
-}    
+        }printf("Sorted");
+    }
+    
