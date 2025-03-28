@@ -15,11 +15,12 @@ int main() {
                 a[j]=c;
             }
         }
-        if(a[i]<=a[i+1]){
-            printf("Sorted");
-        }
-        else{
-            printf("Not Sorted");
-        }
     }
+    if(a[0]<a[n-1]){
+        printf("Sorted");
+    }
+    else{[
+        printf("Not Sorted");
+    ]}
+
 }    
