@@ -2,8 +2,8 @@
 int min(){
     int n,c,r;
     scanf("%d",&n);
-     c=a[0];
     int a[n];
+       c=a[0];
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
