@@ -1,18 +1,18 @@
 #include <stdio.h>
-int n;
-scanf("%d",&n);
+int b;
+scanf("%d",&b);
 int c=0;
-int a[n];
-for(int i =0;i<n;i++){
+int a[b];
+for(int i =0;i<b;i++){
     scanf("%d",&a[i]);
 }
-for(int i=0;i<n;i++){
-    for(int j=i+1;j<n;j++){
+for(int i=0;i<b;i++){
+    for(int j=i+1;j<b;j++){
         if(a[i]==a[j]){
             c++;
         }
     }
-    if(c>n/2){
+    if(c>b/2){
         printf("%d",c);
     }
     else{
