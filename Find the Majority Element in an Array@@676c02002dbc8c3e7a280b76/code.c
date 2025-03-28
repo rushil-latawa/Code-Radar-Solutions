@@ -1,6 +1,7 @@
 #include <stdio.h>
-int n,c=0;
-scanf("%s",&n);
+int n;
+scanf("%d",&n);
+int c=0;
 int a[n];
 for(int i=0;i<n;i++){
     for(int j=i+1;j<n;j++){
