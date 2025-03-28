@@ -10,7 +10,6 @@ int main(){
                 a[i]=a[j];
                 a[j]=c;
             }
-        }
-    }
-    printf("%d",a[n-2]);
+        }printf("%d",a[n-2]);
+    } 
 }
