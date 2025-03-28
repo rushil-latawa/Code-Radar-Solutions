@@ -19,7 +19,7 @@ int main() {
     if(a[0]<a[n-1]){
         printf("Sorted");
     }
-    else{
+    else if(a[0]>a[n-1]){
         printf("Not Sorted");
     }
 
