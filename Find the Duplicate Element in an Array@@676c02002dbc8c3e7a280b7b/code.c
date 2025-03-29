@@ -11,8 +11,8 @@ int main(){
         for(int j=0;j<n;j++){
             if(a[i]==a[j]){
                 c++;
-                printf("%d",a[i]);
+               break;
             }
         }
-    }
+    }printf("%d",c);
 }
