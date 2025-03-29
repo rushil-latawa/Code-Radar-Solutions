@@ -12,7 +12,6 @@ int main(){
             for(int k=i+2;k<n;k++){
                 if(a[i]<a[j] && a[j]>a[k]){
                     printf("%d",a[j]);
-                    break;
                 }
             }
         }
