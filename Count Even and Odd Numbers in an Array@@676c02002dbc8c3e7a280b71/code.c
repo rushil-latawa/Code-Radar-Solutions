@@ -11,12 +11,12 @@ int main(){
     if(a[i]%2==0){
         c++;
         break;
-    printf("%d",c);
     }
     else{
         b++;
-    printf("%d",&b);
     }
         
     }  
+    printf("%d",c);
+    printf("%d",b);
 }
