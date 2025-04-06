@@ -10,7 +10,6 @@ int main(){
     for(int i =0;i<n;i++){
     if(a[i]%2==0){
         c++;
-        break;
     }
     else if (a[i]%2!=0){
         b++;
