@@ -12,10 +12,9 @@ int main(){
         c++;
         break;
     }
-    else{
+    else if (a[i]%2!=0){
         b++;
     }
-        
     }  
     printf("%d",c);
     printf("%d",b);
