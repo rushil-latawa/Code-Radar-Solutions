@@ -18,5 +18,14 @@ int main(){
 //         printf("%d",c);}
 //     printf("%d",a[n-2]);
 // }
+for(int i =0;i<n;i++){
+    for(int j =i+1;j<n;j++){
+    if(a[i]==a[j]){
+        printf("-1");
+    }
+    }
+    else{
 printf("%d",a[n-2]);
+    }
+}
 }
