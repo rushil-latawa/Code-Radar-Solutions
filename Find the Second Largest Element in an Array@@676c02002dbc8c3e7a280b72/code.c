@@ -24,7 +24,7 @@ for(int i =0;i<n;i++){
         printf("-1");
     }
     }
-    else{
+    else if{
 printf("%d",a[n-2]);
     }
 }
