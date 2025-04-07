@@ -15,6 +15,6 @@ int main(){
         b++;
     }
     }  
-    printf("%d",c);
+    printf("%d ",c);
     printf("%d",b);
 }
