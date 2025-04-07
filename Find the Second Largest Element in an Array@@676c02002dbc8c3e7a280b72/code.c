@@ -20,6 +20,6 @@ int main(){
     if(a[i]==a[j]){
         printf("-1");
     }
-}printf("%d",a[n-2]);
     }
+}printf("%d",a[n-2]);
 }
